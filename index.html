@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <script src="HOW GOOD IS YOUR DAY TEST.js"></script>
+    
+    <link href="./HOW GOOD IS YOUR DAY TEST.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW GOOD IS YOUR DAY?</title>
+    
+     
+
+    <div id="myTitle">
+    <h1 id="mytitle">HOW GOOD IS YOUR DAY?</h1>
+    </div>  
+    
+    <div class="IMAGE">
+<img src="https://i.imgur.com/McLeWWc.png" height="50">
+</div>
+
+
+<div class="sidebar">
+    
+    <p>HUMANITIES:</p><input type="number" id="humanitiesNum" value="6" min="1" max="10"><br>
+
+    <p>SCIENCE:</p><input type="number" id="scienceNum" value="8" min="1" max="10"><br>    
+
+    <p>CHINESE:</p><input type="number" id="chineseNum" value="4" min="1" max="10"><br>
+
+    <p>ENGLISH:</p><input type="number" id="englishNum" min="1" max="10" value="8"><br>
+
+    <p>DRAMA:</p><input type="number" id="dramaNum" value="2" min="1" max="10"><br>
+    
+    <p>HEALTH:</p><input type="number" id="healthNum" value="4" min="1" max="10"><br>
+
+    <p>GREEK:</p><input type="number" id="greekNum" value="6" min="1" max="10"><br>
+
+    <p>MUSIC:</p><input type="number" id="musicNum" value="8" min="1" max="10"><br>
+    
+    <p>SPORT:</p><input type="number" id="sportNum" value="8" min="1" max="10"><br>
+
+    <p>MATH:</p><input type="number" id="mathValue" min="1" max="10" value="10"><br>   
+
+    <p>DTD:</p><input type="number" id="dtdNum" value="8" min="1" max="10"><br>
+
+    <p>ART:</p><input type="number" id="artNum" value="3" min="1" max="10"><br>
+
+</div>
+
+<h1 id="myScore"></h1>
+<h3 id="jstext"></h3>
+<h3 id="jsnum"> </h3>
+</head>
+<body>
+
+
+
+    <div id="myDIV">
+   
+    
+         
+   
+    
+    <input type="radio" id="math" onclick="mathFunction()">
+    <label for="math" id="display">0</label>
+    <label for="math" onclick="clickFunction()"><img src="https://i.imgur.com/8pGxeez.png" class="img" height="80"></label>   
+    
+
+    
+    <input type="radio" id="drama" onclick="dramaFunction()">
+    <label for="drama"id="display2">0</label>
+    <label for="drama" onclick="click2Function()"><img src="https://i.imgur.com/MWo7A5O.png" class="img" height="80"></label><br>
+    
+    
+    <input type="radio" id="art" onclick="artFunction()">
+    <label for="art" id="display3">0</label>
+    <label for="art" onclick="click3Function()"><img src="https://i.imgur.com/g5eAx8a.png" height="80"></label>
+
+    <input type="radio" id="humanities" onclick="humanitiesFunction()">
+    <label for="humanities" id="display4">0</label>
+    <label for="humanities" onclick="click4Function()"><img src="https://i.imgur.com/QGLKFyK.png" class="img" height="80"></label><br>
+    
+    <input type="radio" id="music" onclick="musicFunction()">
+    <label for="music" id="display5">0</label>
+    <label for="music" onclick="click5Function()"><img src="https://i.imgur.com/9NzPgc1.png"  height="80"></label>
+
+    <input type="radio" id="english" onclick="englishFunction()">
+    <label for="english" id="display6">0</label>
+    <label for="english" onclick="click6Function()"><img src="https://i.imgur.com/do6jYvR.png"  height="80"></label><br>
+
+    <input type="radio" id="greek" onclick="greekFunction()">
+    <label for="greek" id="display7">0</label>
+    <label for="greek" onclick="click7Function()"><img src="https://i.imgur.com/W649JSb.png"  height="80"></label>
+
+    <input type="radio" id="dtd" onclick="dtdFunction()">
+    <label for="dtd" id="display8">0</label>
+    <label for="dtd" onclick="click8Function()"><img src="https://i.imgur.com/XAO2hun.png" class="img" height="80"></label><br>
+
+    
+    <input type="radio" id="health" onclick="healthFunction()">
+    <label for="health" id="display9">0</label>
+    <label for="health" onclick="click9Function()"><img src="https://i.imgur.com/MZMwTCV.png" class="img" height="80"></label>
+
+    <input type="radio" id="chinese" onclick="chineseFunction()">
+    <label for="chinese" id="display10">0</label>
+    <label for="chinese" onclick="click10Function()"><img src="https://i.imgur.com/FDoIKwc.png"  height="80" ></label><br>
+
+    <input type="radio" id="sport" onclick="sportFunction()">
+    <label for="sport" id="display11">0</label>
+    <label for="sport" onclick="click11Function()"><img src="https://i.imgur.com/toBylQv.png" class="img" height="80"></label>
+
+    <input type="radio" id="science" onclick="scienceFunction()">
+    <label for="science" id="display12">0</label>
+    <label for="science" onclick="click12Function()"><img src="https://i.imgur.com/Yw3KefX.png" height="80"></label>
+
+    <h1 onclick="resultFunction()">FIND OUT!</h1>
+</div>
+</body>
+
+</html>
