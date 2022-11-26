@@ -16,21 +16,8 @@ html {
   flex-wrap: wrap;
 }
 
-    
-h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
-    font-size: 75px;
-    font-weight: bolder;
-   
-    margin-top: -5px;
-    text-shadow: -5px 2px 2px #d20daa, 
-    -8px 4px 1px #01bfe1,
-    -15px 10px 1px #450176;
-    animation: slideright 1.5s linear forwards;
-    transition-timing-function: linear;
-}
+
+
 
 
 label {
@@ -159,9 +146,9 @@ input :hover:not(.active) {
   text-align: center;
   font-size: 90px;
   color: #ffffff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 75px;
-  font-weight: bolder;
+  font-weight: 100;
   text-shadow: 4px 2px #d20daa, 
   6px 1px #01bfe1,
    10px 1px #450176;
@@ -172,11 +159,12 @@ input :hover:not(.active) {
   text-align: center;
   color: #ffffff;
   font-size: 75px;
-  font-weight: bolder;
+  font-weight: bold;
   text-shadow: 4px 2px #d20daa, 
   6px 1px #01bfe1,
   10px 1px #450176;
   margin-top: -80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
@@ -197,26 +185,27 @@ button {
   text-align: center;
   color: #ffffff;
   font-size: 75px;
-  font-weight: bolder;
+  font-weight: 100;
   text-shadow: 4px 2px #d20daa, 
-  6px 1px #01bfe1,
-  10px 1px #450176;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  0px 1px #01bfe1,
+  0px 1px #450176;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 
 #mytitle {
-  padding-bottom: 30px;
-  margin-top: -10px;
+  
+  
+  width: 900px;
+  height: 140px;
+  margin-left: 165px;
+  
 }
 
-
-
-
-
-
-
-
-
-
+#find {
+  width: 275px;
+  height: 130px;
+  margin-left: 480px;
+  
+}
