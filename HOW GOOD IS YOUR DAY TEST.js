@@ -1,9 +1,6 @@
 let words = "YOUR DAY HAS A SCORE OF";
 let score = 0;
 
-
-
-
 //function for saving inputs for subjects after reload
 window.onbeforeunload = function() {
     localStorage.setItem("humanities", humanitiesNum.value);
@@ -82,6 +79,8 @@ let ar = localStorage.getItem("art");
 
 console.log('Art value is ' + ar);
 document.getElementById("artNum").value = ar;
+
+
 }
 
 
@@ -264,3 +263,8 @@ function scienceFunction() {
     score += Number(scienceNum.value);
 
 }
+
+
+
+
+           
