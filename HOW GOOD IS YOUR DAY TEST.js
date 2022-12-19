@@ -1,6 +1,6 @@
 let words = "YOUR DAY HAS A SCORE OF";
 let score = 0;
-
+let outof = ' out of';
 //function for saving inputs for subjects after reload
 window.onbeforeunload = function() {
     localStorage.setItem("humanities", humanitiesNum.value);
@@ -116,7 +116,7 @@ function resultFunction() {
     document.body.appendChild(document.createElement('h3'));
     document.querySelector("body h3:last-child").id = "jsnum";
     
-    document.querySelector("#jsnum").innerHTML = score;
+    document.querySelector("#jsnum").innerHTML = score + outof + ' ' + totalNum;
     
 }
 
